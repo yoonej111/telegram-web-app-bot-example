@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Simple HTML Page</title>
-   <script src="https://telegram.org/js/telegram-web-app.js?1"></script>
+ <title>Simple HTML Page</title>
+ <script src="https://telegram.org/js/telegram-web-app.js?1"></script>
+ <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+ <script src="@walletconnect/client"></script>
 </head>
 <body>
-  TESTTEST
+ <button id="connectButton">Connect to MetaMask</button>
+ <button id="connectWalletConnect">Connect to WalletConnect</button>
+ <img id="qrCode" />
+ <script src="main.js"></script>
 </body>
 </html>
